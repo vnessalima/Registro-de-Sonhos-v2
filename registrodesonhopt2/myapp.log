@@ -1,0 +1,22 @@
+2023-11-14T19:11:41.648-03:00  INFO 9620 --- [main] r.s.registrodesonhopt2.ui.MenuPrincipal  : Starting MenuPrincipal using Java 17.0.8 with PID 9620 (C:\Users\vness\OneDrive\Documentos\Persistencia\registrodesonhopt2\target\classes started by vness in C:\Users\vness\OneDrive\Documentos\Persistencia\registrodesonhopt2)
+2023-11-14T19:11:41.648-03:00 DEBUG 9620 --- [main] r.s.registrodesonhopt2.ui.MenuPrincipal  : Running with Spring Boot v3.1.5, Spring v6.0.13
+2023-11-14T19:11:41.648-03:00  INFO 9620 --- [main] r.s.registrodesonhopt2.ui.MenuPrincipal  : The following 1 profile is active: "sqlite"
+2023-11-14T19:11:41.897-03:00  WARN 9620 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuPrincipal': Unsatisfied dependency expressed through field 'menuUsuario': No qualifying bean of type 'registro.sonho.registrodesonhopt2.ui.MenuUsuario' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-11-14T19:11:42.002-03:00 ERROR 9620 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field menuUsuario in registro.sonho.registrodesonhopt2.ui.MenuPrincipal required a bean of type 'registro.sonho.registrodesonhopt2.ui.MenuUsuario' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'registro.sonho.registrodesonhopt2.ui.MenuUsuario' in your configuration.
+
